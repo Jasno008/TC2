@@ -1,0 +1,29 @@
+project:
+  type: website
+
+website:
+  title: "SOP Handbook"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Master
+      - href: MS.qmd
+        text: Member Services
+      - href: ChildCare.qmd
+        text: Child Care
+      - href: Maintenence.qmd
+        text: Maintenence
+      - href: Administration.qmd
+        text: Administration
+      - href: forms.qmd
+        text: Forms
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
