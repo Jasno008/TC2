@@ -16,6 +16,8 @@ website:
         text: Maintenence
       - href: Administration.qmd
         text: Administration
+      - href: Aquatics.qmd
+        text: Aquatics
       - href: forms.qmd
         text: Forms
       
