@@ -17,13 +17,13 @@
 
 *  New information and updates are put in the MS information Binder. You should also get emails, so please make sure to check your email, and the binger, during your shift.
 
-## Daxko Training Site Information
+#### Daxko Training Site Information
 
 Each staff member has their own log in to the Daxko Training site.
 
 The training site can be found if you click Daxko Operations (Training). Keep this page separate from the live version of Daxko. All edits made on the training site do not actually apply and are purely for practice.
 
-## Member Service Staff Email
+#### Member Service Staff Email
 
 All MS Staff have their own email and should check it at the beginning and throughout their shift (at least hourly). This can be accessed through the Outlook application.
 
@@ -41,7 +41,7 @@ Make sure to include member’s name, contact information and details regarding 
 
 Please make sure to send any Member Services/Membership questions or issue to both Suzanne & Megan, so that one of us can answer. 
 
-## Schedule & Time Off Requests
+#### Schedule & Time Off Requests
 
 All communications regarding schedules will be sent to staff’s personal email. Please make sure you can receive emails from megan@northfieldymca.org. 
 
@@ -49,12 +49,12 @@ Schedules are created at least one month at a time and should be sent out mid-wa
 
 Time off requests should be submitted at least 2 months in advance to help with the scheduling process to make sure shifts are covered. If anything comes up unexpectedly once the schedule is complete, then you are responsible for finding coverage, by either switching with someone or finding someone to cover for you. Contact information for Member Services staff is in the Information Binder. 
 
-## Timekeeping & Exception Forms
+Timekeeping & Exception Forms
 
 You should use the ADP app to clock in and out. This is to be done in the laundry room when you pick up/drop off your walkie. There is a Quick Clock on the app that can be used without having to sign in, otherwise, once you sign in you will click on either Start Work, or End Work. 
 If you miss punching in or out, there are exception forms that can be filled out with the missed time. These are in the Laundry Room on the whiteboard. Fill out the form and put it in Suzanne’s mailbox before the end of the pay period. Pay periods are the 1st-15th, and the 15th-Last day. You will get paid on the 15th and the Last day of the month. 
 
-## Confidential Information
+#### Confidential Information
 
 All information in Daxko is always confidential.
 
@@ -73,7 +73,7 @@ All youth program participant registration info is confidential, and only to be 
 
 If you are unsure of someone’s identity, it is OK to ask for their date of birth, address, email or phone number to verify. 
 
-## Insurance Information
+#### Insurance Information
 
 Members can sign up to get reimbursed from their insurance company if they come a certain number of times a month, depending on the company. 
 
@@ -89,7 +89,7 @@ We do not participate in SilverSneakers, Renew Active, One Pass, and Active & Fi
 
 We do have a Silver & Fit option, applications are in the drawer. 
 
-## Safety Protocols
+#### Safety Protocols
 There is an Emergency Action Procedures binder in the front desk drawer. This has all procedures that should be followed in different types of emergencies. 
 
 The Safety committee will be performing drills throughout the year to ensure that all members of staff know the emergency procedures. 
@@ -100,7 +100,7 @@ There is a sheet in the back of the EAP binder that provides direction on what t
 
 There is an emergency intercom for the pool deck on the wall behind the front desk. This is so if there is an emergency in the pool the lifeguard can contact the front quickly. If this goes off, follow the intercom protocols that are above the intercom. 
 
-## Self-Check In Station
+#### Self-Check In Station
 There is a Self-Check In station set up at the 2nd front desk computer, this is to be used for active members only, anyone else coming in for any other reason should check in with Member Services staff. There are signs up front to help direct members. 
 
 Member Services staff should still pay attention to everyone coming in the building, and should be where most people are checking in. The self-check in station is a tool to help with the busy times when there is not double coverage up at the front. This is not an excuse to not pay attention, you should still be greeting everyone when they come in. 
@@ -109,7 +109,7 @@ Member Services should monitor the self-check in station to make sure those chec
 
 Regarding rosters: You can use the “Who is Here?” list to see who is in the building to compare to the roster. You can call a MOD up to help monitor when you know a class is starting if that is helpful.  
 
-## Tour Information
+#### Tour Information
 
 If someone calls and requests a tour, let them know they can come in anytime for a tour, or if they want to set up a time they can do that as well. If they set up a specific day/time, email the Member Services staff member who will be on duty at that time and let them know the day/time that the visitor will be coming in, along with their name. 
 
@@ -119,7 +119,31 @@ If there is only 1 member services staff member, then walkie Wellness to see if 
 
 If there are 2 member services staff members, one of you can give the tour. 
 
+## Department Contact List
+Member Services: Suzanne
 
+* Membership/ Scholarship questions
+* Daxko or Administrative concerns
+
+Health & Wellness and Aquatics: Erik & Anne
+
+* Wellness Floor: Erik
+* Group Exercise: Erik
+* Swimming Lessons: Anne
+* Open Swim/ Lap Swim: Anne
+* Personal Training: Anne
+
+ Youth Development: Heidi & Izzy
+* Child Watch
+* Birthday Parties
+* Camp
+* Youth in Government
+
+ Building & Grounds: Jesse
+
+* Maintenance
+* Deliveries
+* Building projects
 
 
 
