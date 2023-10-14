@@ -1,2 +1,8 @@
 
 {{< include MemberService/BasicInformation.qmd >}}
+
+{{< include MemberService/AcceptingOrderedItems.qmd >}}
+
+{{< include MemberService/AccessingMSCalendar.qmd >}}
+
+{{< include MemberService/AddingNewCredit.qmd >}}

@@ -1,0 +1,26 @@
+# Adding a New Credit Card or Bank Account
+
+#### MS Team Member
+
+1. Open Daxko.
+2. Click on the Membership tap at the top of the screen
+3. Click search.
+4. Type in “last name, first name”
+5. Click on the member’s name
+6. To edit, click on the pencil in the upper left-hand corner of the page where it says invoice.
+7. Click on the “add credit card button”, or use drop down to choose EFT.
+8. Enter information requested. Always check to make sure it is spelled correctly, first and last names are capitalized, and the number and expiration date are correct. 
+9. Click Add Billing Method 
+
+#### Monthly dues with new billing method 
+
+10. Click on the edit pencil in the upper left-hand corner of the page, where it says Bank Account or Credit Card. 
+11. Click Membership Dues.
+12. Under Billing Method, click the arrow to choose the correct one. 
+13. Click on Membership Information to get back to the member page. It should now show the new payment option.
+
+#### Delete the old billing method
+
+14. Click on the More button at the top right-hand of the screen.
+15. Click on Update Billing Methods. 
+16. Click on the Trash Can next to the old form of payment. 

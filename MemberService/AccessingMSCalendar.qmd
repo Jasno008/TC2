@@ -1,0 +1,11 @@
+
+# Accessing Member Services Calendar
+
+#### MS Team Member
+
+1. Log into the front desk computer
+2. Open outlook
+3. Click on the calendar icon on the left-hand side.
+4. Scroll down to All Group calendars
+5. Check the box next to member services
+
