@@ -6,3 +6,9 @@
 {{< include MemberService/AccessingMSCalendar.qmd >}}
 
 {{< include MemberService/AddingNewCredit.qmd >}}
+
+{{< include MemberService/AddingCommunityMember.qmd >}}
+
+{{< include Memberservice/BeOurGuest.qmd >}}
+
+{{< include Memberservice/Caretaker.qmd >}}

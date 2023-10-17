@@ -1,0 +1,43 @@
+# Caretaker Check in
+
+#### MS Team member
+1. A caretaker will come to the front desk to check in with their client
+
+#### If This is Their First Time in
+
+2. Have the person fill out the Caretaker Form. Look them up in Daxko, follow the corresponding steps below
+3. Note in the top right corner of the Caretaker Form that is has been entered, include your initials and the date
+4. File the Caretaker Form in the appropriate folder in the top drawer of the Membership File Cabinet
+
+#### If person is not in Daxko
+
+5. Activate the person as a new member. See how to activate a New Member SOP, choose community member as the membership type
+6. Check them in
+7. Add a yellow alert to their account saying: Caretaker for “Client Name”
+
+#### If a Community Member
+
+8. Click on the pencil next to the word inactive to edit
+9. Choose Community Member
+10. Enter additional information if requested by Daxko, especially Brithdays
+11. Click next
+12. Choose which members should be active
+13. Click next
+14. You can type in the adult member’s name and sign the waiver for them at this step
+15. Click I agree
+16. The system will set up this membership to automatically terminate in 1 year, it will also say there is no charge
+17. Click next
+18. Click on Membership Information
+19. Check them in
+20. Add a yellow alert to their account saying: Caretaker for “Client Name”
+
+#### If Inactive Member on Active unit
+
+21. Keep the community member as inactive
+22. Add a yellow alert above their name that says: Member “First Name” is a caretaker for “Client Name”, please keep inactive due to active member in this unit
+
+#### If active community member
+
+23. Check them in
+24. Add a yellow alert to their account saying: Caretaker for “Client name”
+

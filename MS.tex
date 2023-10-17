@@ -1,0 +1,850 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+]{report}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\makeatother
+\makeatletter
+\@ifundefined{shadecolor}{\definecolor{shadecolor}{rgb}{.97, .97, .97}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\makeatother
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+\ifdefined\Shaded\renewenvironment{Shaded}{\begin{tcolorbox}[breakable, interior hidden, borderline west={3pt}{0pt}{shadecolor}, boxrule=0pt, sharp corners, enhanced, frame hidden]}{\end{tcolorbox}}\fi
+
+\hypertarget{basic-information-overview}{%
+\chapter{Basic Information \&
+Overview}\label{basic-information-overview}}
+
+\begin{itemize}
+\item
+  You are the first and last experience for a member; make sure to greet
+  them as they come in and leave. Friendliness makes a difference.
+\item
+  Members in the building come first. Voicemails can be checked and we
+  can get back to phone calls.
+\item
+  Personal cell phone use is restricted when at the front desk. If you
+  need to make a call, walkie the MOD to cover while you step in the
+  back.
+\item
+  Do not leave the desk unattended. If you need to use the restroom, get
+  a drink, or grab food, walkie the MOD up to cover while you step away.
+\item
+  Supervisors determine when breaks should be taken in accordance with
+  staffing and program requirements. Breaks cannot be added to extend a
+  meal period or used to end work early.
+\item
+  A short duration rest break is available within each period of four
+  consecutive work hours. This includes bathroom breaks, phone calls and
+  any other times you step away from the front desk. Food can be eaten
+  up at the front desk if needed, but make sure this is done at slower
+  times during your shift.
+\item
+  If scheduled to work eight or more consecutive hours, a 30-minute
+  unpaid meal break is required. MOD is responsible for coverage of
+  these breaks.
+\item
+  There are mailboxes for different staff members in the back behind
+  Member Services in case you need to give forms or other info to
+  someone. The mailbox for each individual is the box to the right of
+  their name.
+\item
+  New information and updates are put in the MS information Binder. You
+  should also get emails, so please make sure to check your email, and
+  the binger, during your shift.
+\end{itemize}
+
+\hypertarget{daxko-training-site-information}{%
+\subsubsection{Daxko Training Site
+Information}\label{daxko-training-site-information}}
+
+Each staff member has their own log in to the Daxko Training site.
+
+The training site can be found if you click Daxko Operations (Training).
+Keep this page separate from the live version of Daxko. All edits made
+on the training site do not actually apply and are purely for practice.
+
+\hypertarget{member-service-staff-email}{%
+\subsubsection{Member Service Staff
+Email}\label{member-service-staff-email}}
+
+All MS Staff have their own email and should check it at the beginning
+and throughout their shift (at least hourly). This can be accessed
+through the Outlook application.
+
+This email should only be used for internal purposes, which include:
+
+\begin{itemize}
+\tightlist
+\item
+  Updates for Member Services Staff
+\item
+  To communicate with Lead Team Staff who are not in the building
+\item
+  Internal YMCA business
+\end{itemize}
+
+Do NOT use this email to communicate directly with members.
+
+Please use email to communicate with other internal staff members
+instead of leaving them post-it notes, as post-it's can get lost.
+
+Make sure to include member's name, contact information and details
+regarding reason for email when sending a message to a staff member.
+
+Please make sure to send any Member Services/Membership questions or
+issue to both Suzanne \& Megan, so that one of us can answer.
+
+\hypertarget{schedule-time-off-requests}{%
+\subsubsection{Schedule \& Time Off
+Requests}\label{schedule-time-off-requests}}
+
+All communications regarding schedules will be sent to staff's personal
+email. Please make sure you can receive emails from
+megan@northfieldymca.org.
+
+Schedules are created at least one month at a time and should be sent
+out mid-way through the previous month.
+
+Time off requests should be submitted at least 2 months in advance to
+help with the scheduling process to make sure shifts are covered. If
+anything comes up unexpectedly once the schedule is complete, then you
+are responsible for finding coverage, by either switching with someone
+or finding someone to cover for you. Contact information for Member
+Services staff is in the Information Binder.
+
+Timekeeping \& Exception Forms
+
+You should use the ADP app to clock in and out. This is to be done in
+the laundry room when you pick up/drop off your walkie. There is a Quick
+Clock on the app that can be used without having to sign in, otherwise,
+once you sign in you will click on either Start Work, or End Work. If
+you miss punching in or out, there are exception forms that can be
+filled out with the missed time. These are in the Laundry Room on the
+whiteboard. Fill out the form and put it in Suzanne's mailbox before the
+end of the pay period. Pay periods are the 1st-15th, and the 15th-Last
+day. You will get paid on the 15th and the Last day of the month.
+
+\hypertarget{confidential-information}{%
+\subsubsection{Confidential
+Information}\label{confidential-information}}
+
+All information in Daxko is always confidential.
+
+Daxko and membership information should only be given to adults (18+)
+that are listed on the unit. * There are some situations where it might
+seem ok to give out personal information to someone, but please remember
+that giving personal info to anyone that is not listed on the unit, and
+over 18, is not approved.
+
+Daxko information in a membership, especially billing and scholarship
+information, should never be given to minors. Occasionally a minor will
+come in to use the Y, and the membership in not currently active. In
+this case, do no give out billing info or scholarship info to the minor.
+Make sure that you have the parent/guardian's correct contact
+information and email the admin team so they can follow up with the
+parent/guardian.
+
+You should never give out any youth program participant information to
+any adult that is not listed on the child's unit.
+
+All youth program participant registration info is confidential, and
+only to be given out to the parent/guardian that is listed on the unit.
+
+\begin{itemize}
+\item
+  There are instances in youth programming where a parent/guardian may
+  call asking about a child's participation in a program. If that
+  parent/guardian is not listed on the unit, they may not be given that
+  information. This may be a situation where he/she is not allowed to
+  see the child. In this case, always remember to check notes on the
+  unit.
+\item
+  When a parent calls to ask for information about a child's
+  registration, please make sure to verify the identity of the adult
+  first.
+\end{itemize}
+
+If you are unsure of someone's identity, it is OK to ask for their date
+of birth, address, email or phone number to verify.
+
+\hypertarget{insurance-information}{%
+\subsubsection{Insurance Information}\label{insurance-information}}
+
+Members can sign up to get reimbursed from their insurance company if
+they come a certain number of times a month, depending on the company.
+
+Insurance forms are in the drawer under the front desk. There are
+separate folders for each of the insurance companies.
+
+Insurance forms should be filled out, initialed and signed. Make a copy
+of the front of their insurance card and they need to attach a voided
+check.
+
+Completed forms, which include the Enrollment form, voided check and
+copy of insurance card, can be put in Megan's mailbox.
+
+We do not take Blue Cross Blue Shield.
+
+We do not participate in SilverSneakers, Renew Active, One Pass, and
+Active \& Fit.
+
+We do have a Silver \& Fit option, applications are in the drawer.
+
+\hypertarget{safety-protocols}{%
+\subsubsection{Safety Protocols}\label{safety-protocols}}
+
+There is an Emergency Action Procedures binder in the front desk drawer.
+This has all procedures that should be followed in different types of
+emergencies.
+
+The Safety committee will be performing drills throughout the year to
+ensure that all members of staff know the emergency procedures.
+
+Incident Reporting -- in the back of the EAP binder there is a sheet
+that outlines what types of incidents need to be reported and how to do
+that. There are blank Incident Reports in the back pocket of the EAP
+binder.
+
+There is a sheet in the back of the EAP binder that provides direction
+on what to do when you need to clean up blood or other bodily fluids on
+non-carpeted surfaces.
+
+There is an emergency intercom for the pool deck on the wall behind the
+front desk. This is so if there is an emergency in the pool the
+lifeguard can contact the front quickly. If this goes off, follow the
+intercom protocols that are above the intercom.
+
+\hypertarget{self-check-in-station}{%
+\subsubsection{Self-Check In Station}\label{self-check-in-station}}
+
+There is a Self-Check In station set up at the 2nd front desk computer,
+this is to be used for active members only, anyone else coming in for
+any other reason should check in with Member Services staff. There are
+signs up front to help direct members.
+
+Member Services staff should still pay attention to everyone coming in
+the building, and should be where most people are checking in. The
+self-check in station is a tool to help with the busy times when there
+is not double coverage up at the front. This is not an excuse to not pay
+attention, you should still be greeting everyone when they come in.
+
+Member Services should monitor the self-check in station to make sure
+those checking in are active.
+
+Regarding rosters: You can use the ``Who is Here?'' list to see who is
+in the building to compare to the roster. You can call a MOD up to help
+monitor when you know a class is starting if that is helpful.
+
+\hypertarget{tour-information}{%
+\subsubsection{Tour Information}\label{tour-information}}
+
+If someone calls and requests a tour, let them know they can come in
+anytime for a tour, or if they want to set up a time they can do that as
+well. If they set up a specific day/time, email the Member Services
+staff member who will be on duty at that time and let them know the
+day/time that the visitor will be coming in, along with their name.
+
+If someone just walks in and requests a tour, let them know you will get
+someone to show them around. Have the visitor fill out the Membership
+Inquiry form, which is on the small clipboards at the front of the
+drawer.
+
+If there is only 1 member services staff member, then walkie Wellness to
+see if they can come to the front and give a tour.
+
+If there are 2 member services staff members, one of you can give the
+tour.
+
+\hypertarget{department-contact-list}{%
+\section{Department Contact List}\label{department-contact-list}}
+
+Member Services: Suzanne
+
+\begin{itemize}
+\tightlist
+\item
+  Membership/ Scholarship questions
+\item
+  Daxko or Administrative concerns
+\end{itemize}
+
+Health \& Wellness and Aquatics: Erik \& Anne
+
+\begin{itemize}
+\tightlist
+\item
+  Wellness Floor: Erik
+\item
+  Group Exercise: Erik
+\item
+  Swimming Lessons: Anne
+\item
+  Open Swim/ Lap Swim: Anne
+\item
+  Personal Training: Anne
+\end{itemize}
+
+Youth Development: Heidi \& Izzy * Child Watch * Birthday Parties * Camp
+* Youth in Government
+
+Building \& Grounds: Jesse
+
+\begin{itemize}
+\tightlist
+\item
+  Maintenance
+\item
+  Deliveries
+\item
+  Building projects
+\end{itemize}
+
+\hypertarget{accepting-ordered-items-and-mail-from-vendor}{%
+\chapter{Accepting Ordered Items and Mail from
+Vendor}\label{accepting-ordered-items-and-mail-from-vendor}}
+
+\hypertarget{vendor}{%
+\subsubsection{Vendor}\label{vendor}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  A vendor/UPS/Mail worker will enter the building with items to be
+  dropped off.
+\item
+  Vendors will give item/s to Member Services team members.
+\end{enumerate}
+
+\hypertarget{ms-team-member}{%
+\subsubsection{MS Team Member}\label{ms-team-member}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\item
+  Member Services members will put all mail into Rachel's mailbox and
+  all large items on the floor in front of the file cabinets below the
+  mailboxes.
+\item
+  Please make sure that all items are on the floor in this area so they
+  are not in the sight line of entering members.
+\item
+  If there are any large items, Member Services team members will email
+  program directors to alert them of the delivery.
+\end{enumerate}
+
+\hypertarget{admin}{%
+\subsubsection{Admin}\label{admin}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Administrative assistant will open all packages during shift and alert
+  necessary staff of delivery
+\end{enumerate}
+
+\hypertarget{accessing-member-services-calendar}{%
+\chapter{Accessing Member Services
+Calendar}\label{accessing-member-services-calendar}}
+
+\hypertarget{ms-team-member-1}{%
+\subsubsection{MS Team Member}\label{ms-team-member-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Log into the front desk computer
+\item
+  Open outlook
+\item
+  Click on the calendar icon on the left-hand side.
+\item
+  Scroll down to All Group calendars
+\item
+  Check the box next to member services
+\end{enumerate}
+
+\hypertarget{adding-a-new-credit-card-or-bank-account}{%
+\chapter{Adding a New Credit Card or Bank
+Account}\label{adding-a-new-credit-card-or-bank-account}}
+
+\hypertarget{ms-team-member-2}{%
+\subsubsection{MS Team Member}\label{ms-team-member-2}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Open Daxko.
+\item
+  Click on the Membership tap at the top of the screen
+\item
+  Click search.
+\item
+  Type in ``last name, first name''
+\item
+  Click on the member's name
+\item
+  To edit, click on the pencil in the upper left-hand corner of the page
+  where it says invoice.
+\item
+  Click on the ``add credit card button'', or use drop down to choose
+  EFT.
+\item
+  Enter information requested. Always check to make sure it is spelled
+  correctly, first and last names are capitalized, and the number and
+  expiration date are correct.
+\item
+  Click Add Billing Method
+\end{enumerate}
+
+\hypertarget{monthly-dues-with-new-billing-method}{%
+\subsubsection{Monthly dues with new billing
+method}\label{monthly-dues-with-new-billing-method}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{9}
+\tightlist
+\item
+  Click on the edit pencil in the upper left-hand corner of the page,
+  where it says Bank Account or Credit Card.
+\item
+  Click Membership Dues.
+\item
+  Under Billing Method, click the arrow to choose the correct one.
+\item
+  Click on Membership Information to get back to the member page. It
+  should now show the new payment option.
+\end{enumerate}
+
+\hypertarget{delete-the-old-billing-method}{%
+\subsubsection{Delete the old billing
+method}\label{delete-the-old-billing-method}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{13}
+\tightlist
+\item
+  Click on the More button at the top right-hand of the screen.
+\item
+  Click on Update Billing Methods.
+\item
+  Click on the Trash Can next to the old form of payment.
+\end{enumerate}
+
+\hypertarget{adding-a-new-community-member}{%
+\chapter{Adding a New Community
+Member}\label{adding-a-new-community-member}}
+
+\hypertarget{ms-team-member-3}{%
+\subsubsection{MS Team Member}\label{ms-team-member-3}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Open Daxko
+\item
+  Click on Membership tab at the top of the screen
+\item
+  Click ``Search''
+\item
+  Type in last name, first name
+\item
+  If the member is already in Daxko click their name. If the person is
+  not in Daxko skip to step 21
+\end{enumerate}
+
+\hypertarget{if-a-community-member}{%
+\subsubsection{If a Community Member}\label{if-a-community-member}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  Click on the pencil next to the word inactive to edit
+\item
+  Choose Community Member
+\item
+  Enter additional information if requested by Daxko, especially
+  Birthdays
+\item
+  Click next
+\item
+  Choose which members on the account should be active. If they are
+  purchasing an individual day pass, just 6. activate the person on the
+  pass. If it is a family pass then all members can be activated.
+\item
+  Click next
+\item
+  A community Member has already signed a waiver if they have registered
+  for a program in our system. You can type in the adult member's name
+  and electronically sign the waiver for them at this step.
+\item
+  Click I agree
+\item
+  The system will set up this membership to automatically terminate in 1
+  year, there will also be no recurring charges or joiners fee
+\item
+  Click next
+\item
+  Click on Membership Information tab at the top of the page
+\item
+  Check them in, if applicable.
+\end{enumerate}
+
+\hypertarget{if-inactive-member-on-active-unit}{%
+\subsubsection{If Inactive Member On Active
+Unit}\label{if-inactive-member-on-active-unit}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{17}
+\tightlist
+\item
+  Keep the community member as inactive
+\item
+  Add a Yellow Alert above their name that says: Member ``First Name''
+  is a Community member, please keep inactive due to active member in
+  this unit
+\item
+  Check them in, if applicable
+\end{enumerate}
+
+\hypertarget{if-the-person-is-not-in-daxko}{%
+\subsubsection{If The Person Is Not In
+Daxko}\label{if-the-person-is-not-in-daxko}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{20}
+\tightlist
+\item
+  Have the person fill out the Community Member/Program Participant
+  form.\hspace{0pt}\hspace{0pt} We need to get their signature
+\item
+  Activate the person as a new member. See how to Activate a New Member
+  SOP, choose ``community member'' as membership type
+\item
+  Check them in, if applicable.
+\item
+  Sign your initials in the top right corner of the completed form to
+  note that it has been entered into Daxko. 25. Include the date.
+\item
+  File the form in the appropriate folder in the top drawer of the
+  Membership File Cabinet.
+\end{enumerate}
+
+\hypertarget{be-our-guest-passes}{%
+\chapter{Be Our Guest Passes}\label{be-our-guest-passes}}
+
+\hypertarget{ms-team-member-4}{%
+\subsubsection{MS Team Member}\label{ms-team-member-4}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  If a guest comes in with a Be Our Guest Pass, they are able to use the
+  facility
+\item
+  Have them fill out a Program Participant/ Community Member form. These
+  are found in the appropriate folder in the drawer beneath the front
+  desk
+\item
+  Add them as a Community Member if they are not in Daxko, or activate
+  them as Community Member if they are
+\item
+  Click on Balance Due in the upper right-hand corner
+\item
+  Click on Add One-Time Fees button
+\item
+  Check the box next to Be Our Guest Pass. The amount will be zero
+  dollars, but this is for tracking purposes
+\item
+  Click the Add Fees button at the bottom of the page. It will take you
+  back to the Balance Due page. No actual payment needs to be taken as
+  this is free
+\item
+  Go back to the Membership Information page
+\item
+  Check them in, no key fob is required
+\item
+  Add a note to their account that they came in on a Be Our Guest Pass
+\item
+  Sign initials and date the Community Member/ Program Participant form
+\item
+  Staple the Be Our Guest Pass to the form
+\item
+  Put form in the Be Our Guest folder in the top of the Membership File
+  Cabinet
+\end{enumerate}
+
+\hypertarget{caretaker-check-in}{%
+\chapter{Caretaker Check in}\label{caretaker-check-in}}
+
+\hypertarget{ms-team-member-5}{%
+\subsubsection{MS Team member}\label{ms-team-member-5}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  A caretaker will come to the front desk to check in with their client
+\end{enumerate}
+
+\hypertarget{if-this-is-their-first-time-in}{%
+\subsubsection{If This is Their First Time
+in}\label{if-this-is-their-first-time-in}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  Have the person fill out the Caretaker Form. Look them up in Daxko,
+  follow the corresponding steps below
+\item
+  Note in the top right corner of the Caretaker Form that is has been
+  entered, include your initials and the date
+\item
+  File the Caretaker Form in the appropriate folder in the top drawer of
+  the Membership File Cabinet
+\end{enumerate}
+
+\hypertarget{if-person-is-not-in-daxko}{%
+\subsubsection{If person is not in
+Daxko}\label{if-person-is-not-in-daxko}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  Activate the person as a new member. See how to activate a New Member
+  SOP, choose community member as the membership type
+\item
+  Check them in
+\item
+  Add a yellow alert to their account saying: Caretaker for ``Client
+  Name''
+\end{enumerate}
+
+\hypertarget{if-a-community-member-1}{%
+\subsubsection{If a Community Member}\label{if-a-community-member-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{7}
+\tightlist
+\item
+  Click on the pencil next to the word inactive to edit
+\item
+  Choose Community Member
+\item
+  Enter additional information if requested by Daxko, especially
+  Brithdays
+\item
+  Click next
+\item
+  Choose which members should be active
+\item
+  Click next
+\item
+  You can type in the adult member's name and sign the waiver for them
+  at this step
+\item
+  Click I agree
+\item
+  The system will set up this membership to automatically terminate in 1
+  year, it will also say there is no charge
+\item
+  Click next
+\item
+  Click on Membership Information
+\item
+  Check them in
+\item
+  Add a yellow alert to their account saying: Caretaker for ``Client
+  Name''
+\end{enumerate}
+
+\hypertarget{if-inactive-member-on-active-unit-1}{%
+\subsubsection{If Inactive Member on Active
+unit}\label{if-inactive-member-on-active-unit-1}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{20}
+\tightlist
+\item
+  Keep the community member as inactive
+\item
+  Add a yellow alert above their name that says: Member ``First Name''
+  is a caretaker for ``Client Name'', please keep inactive due to active
+  member in this unit
+\end{enumerate}
+
+\hypertarget{if-active-community-member}{%
+\subsubsection{If active community
+member}\label{if-active-community-member}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{22}
+\tightlist
+\item
+  Check them in
+\item
+  Add a yellow alert to their account saying: Caretaker for ``Client
+  name''
+\end{enumerate}
+
+
+
+\end{document}

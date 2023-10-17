@@ -1,0 +1,38 @@
+# Adding a New Community Member
+
+#### MS Team Member
+
+1. Open Daxko
+2. Click on Membership tab at the top of the screen
+3. Click “Search”
+4. Type in last name, first name
+5. If the member is already in Daxko click their name. If the person is not in Daxko skip to step 21
+
+#### If a Community Member
+
+6. Click on the pencil next to the word inactive to edit
+7. Choose Community Member
+8. Enter additional information if requested by Daxko, especially Birthdays
+9. Click next
+10. Choose which members on the account should be active. If they are purchasing an individual day pass, just 6. activate the person on the pass. If it is a family pass then all members can be activated.
+11. Click next
+12. A community Member has already signed a waiver if they have registered for a program in our system. You can type in the adult member’s name and electronically sign the waiver for them at this step.
+13. Click I agree
+14. The system will set up this membership to automatically terminate in 1 year, there will also be no recurring charges or joiners fee
+15. Click next
+16. Click on Membership Information tab at the top of the page
+17. Check them in, if applicable.
+
+#### If Inactive Member On Active Unit
+
+18. Keep the community member as inactive
+19. Add a Yellow Alert above their name that says: Member “First Name” is a Community member, please keep inactive due to active member in this unit
+20. Check them in, if applicable
+
+#### If The Person Is Not In Daxko
+21. Have the person fill out the Community Member/Program Participant form.​​ We need to get their signature
+22. Activate the person as a new member. See how to Activate a New Member SOP, choose “community member” as membership type
+23. Check them in, if applicable.
+24. Sign your initials in the top right corner of the completed form to note that it has been entered into Daxko. 25. Include the date.
+26. File the form in the appropriate folder in the top drawer of the Membership File Cabinet.
+
